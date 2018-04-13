@@ -1,0 +1,114 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+}
+
+header {
+  background-color: #D34652;
+  /*position: static;*/
+  display:flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logoImagen{
+	height:100px;
+	float: left;	
+	margin-right: 50px;
+}
+
+.logoLetras{
+	color: #FB9EA7;
+	font-family: 'Bungee Inline';
+	font-size: 40px;
+	/*display:inline;*/
+	padding: 0 20px;
+	width: 200px;
+}
+
+.menu {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 30px;
+  flex: 1;
+}
+
+.menu:hover {
+  color: #DBE9EE;
+}
+
+h1 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.estrenos{
+  width: 100%;
+  height: 300px;
+  margin:0;
+  background-color: #FFF;
+}
+
+.estrenos p{
+	
+	box-sizing: 
+}
+/*p {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+}
+
+.estrenos {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;				/*Para que ocupe todo el ancho de pantalla
+									/*position: static;		puede ser static, relative, absolute, fixed
+  top: 40px; (si fuera relativ, 40px desviado respecto a donde estaría si fuera static
+  cuando es absolut, los otros elementos lo ignoran. Se ponen encima y todo.
+  top: 50px;						/*baja el texto para que al ser relative se vea
+}
+
+.mama{
+  text-align: center;
+  position: relative;
+  top: 40px;
+  clear: left;  
+}
+
+.papa{
+  text-align: center;
+  position: relative;
+  top: 40px;
+  clear: left;  
+}
+
+.maria{
+  text-align: center;
+  position: relative;
+  top: 40px;
+  clear: left;  
+}
+
+.carmen{
+  text-align: center;
+  position: relative;
+  top: 40px;
+  clear: left;  
+}
+*/
+

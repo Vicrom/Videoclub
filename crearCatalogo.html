@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Editar catálogo</title>
+  <link rel="stylesheet" type="text/css" href="estilos/crearCatalogo.css" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+</head>
+<body>
+
+  <h2>Introduce una nueva película</h2>
+
+  <form action = "crearCatalogo.php" method = "post">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" /><br />
+    <label for="director">Director:</label>
+    <input type="text" id="director" name="director" /><br />
+    <label for="pais">País</label>
+    <input type="text" id="pais" name="pais" /><br />
+    <label for="anio">Año</label>
+    <input type="text" id="anio" name="anio" /><br />
+    <label for="genero">Género</label>
+    <input type="text" id="genero" name="genero" /><br />
+    <label for="nota">Nota</label>
+    <input type="text" id="nota" name="nota" /><br />
+    <input type="submit" value="Listo" name="submit" />
+  </form>
+</body>
+</html>
